@@ -17,11 +17,12 @@ const Footer = () => {
       <div className="secContainer container grid">
         <div className="logoDiv">
           <div className="footerLogo" data-aos="fade-up">
-            <BiLogoAdobe className='icon' />
-            <span>G-Trips</span>
+            {/* <BiLogoAdobe className='icon' /> */}
+            <span>Phúc Decor</span>
           </div>
           <div className="socials flex" data-aos="fade-up">
-            <ImFacebook className='icon' />
+
+            <a href="https://www.facebook.com/profile.php?id=61556828008436">             <ImFacebook className='icon' /></a>
             <SiZalo className='icon' />
             <AiFillInstagram className='icon' />
           </div>
@@ -68,10 +69,10 @@ const Footer = () => {
             Contact Details
           </span>
           <span className="phone">
-            +651 125 658
+            0823712222
           </span>
           <span className="email">
-            bacung@gmail.com
+            phucdecor@gmail.com
           </span>
         </div>
       </div>
